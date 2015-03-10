@@ -8,5 +8,10 @@
    * [Conditional Probability](conditional_probability.md)
 * [Random Variable](chapter3.md)
    * [Cumulative Distribution](cumulative_distribution.md)
+   * [Conditional Random Variable](conditional_random_variable.md)
+   * [Types of Random Variable](types_of_random_variable.md)
+   * [Discrete Random Variable](discrete_random_variable.md)
    * [Continuous Random Variable](continuous_random_variable.md)
+   * [Expectation](expection.md)
+   * [Moment Generating Function](moment_generating_function.md)
 
