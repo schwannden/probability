@@ -1,6 +1,6 @@
 # Normal Random Variable
 
-**Definition** We say a continuous random variable $\mathbb{X}$ is has a normal distribution with parameter $\mu, \sigma^2$, denoted $\mathbb{X} \sim normal(\mu, \sigma^2)$ if
+**Definition** We say a continuous random variable $$\mathbb{X}$$ is has a normal distribution with parameter $$\mu, \sigma^2$$, denoted $$\mathbb{X} \sim normal(\mu, \sigma^2)$$ if
 $$
  \mathbb{X} \sim f(x) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
  \text{ for all } x\in\mathbb{R}
