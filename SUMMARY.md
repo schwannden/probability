@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [What is Probability](chapter1.md)
 * [Axiomatic Probability](chapter2.md)
    * [Sigma Algebra](sigma_algebra.md)
    * [Probability Space](probability_space.md)
