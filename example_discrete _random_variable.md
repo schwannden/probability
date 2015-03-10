@@ -1,2 +1,2 @@
-# Example Discrete Random Variable]
+# Example Discrete Random Variable
 
