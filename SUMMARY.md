@@ -8,4 +8,5 @@
    * [Conditional Probability](conditional_probability.md)
 * [Random Variable](chapter3.md)
    * [Cumulative Distribution](cumulative_distribution.md)
+   * Continuous Random Variable
 
