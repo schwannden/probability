@@ -1,0 +1,2 @@
+# Example Continuous Random Variable
+
