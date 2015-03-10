@@ -23,6 +23,7 @@ So again, **conditional probability is probability!**
 
 With the notion of conditional probability, we can define the notion of independence for events.
 
+
 **Definition** We say A and B are independent if $$\mathbb{P}(A \cap B) = \mathbb{P}(A) \mathbb{P}(B)$$
 
 **Remark**
