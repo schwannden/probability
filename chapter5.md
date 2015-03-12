@@ -8,9 +8,9 @@ If the range of $\bar{X}$ is discrete, $X_1, X_2, ..., X_n$ are discrete random 
 $$f_{\bar{X}}(\bar{x}) = \mathbb{P}( X_1 = x_1, X_2 = x_2, ..., X_n = x_n )\text{ , where }\bar{x} = (x_1, x_2, ..., x_n) \in \mathbb{R}^n $$
 and joint c.d.f
 $$F_{\bar{X}}(\bar{x}) = \mathbb{P}( X_1 \leq x_1, X_2 \leq x_2, ..., X_n \leq x_n )$$
-Note that $\bar{X}$ is discrete iff $X_1, X_2, ..., X_n$ are discrete. But if $\bar{X}$ is not discrete, it is not necessary that all of $X_i's$ are continuous. And if some $X1_i$'s are discrete while the others are continuous, it can be proved that joint distribution does not exist for $\bar{X}$. So in order to have a continuous random vector, All of $X_i's$ must be continuous.
+Note that $$\bar{X}$$ is discrete iff $$X_1, X_2, ..., X_n$$ are discrete. But if $$\bar{X}$$ is not discrete, it is not necessary that all of $$X_i's$$ are continuous. And if some $$X1_i$$'s are discrete while the others are continuous, it can be proved that joint distribution does not exist for $$\bar{X}$$. So in order to have a continuous random vector, All of $$X_i's$$ must be continuous.
 
-If $X_1, X_2, ..., X_n$ are continuous, there is $f_{\bar{X}}(\bar{x}) \geq 0$ such that joint c.d.f
+If $$X_1, X_2, ..., X_n$$ are continuous, there is $$f_{\bar{X}}(\bar{x}) \geq 0$$ such that joint c.d.f
 $$F_{\bar{X}}(\bar{x}) = \mathbb{P}( X_1 \leq x_1, X_2 \leq x_2, ..., X_n\leq x_n ) = \int_{-\infty}^{x_1}\int_{-\infty}^{x_2}...\int_{-\infty}^{x_n} f_{\bar{X}}(\bar{x}) \mathrm{d}x_n ... \mathrm{d}x_2 \mathrm{d}x_1$$
 
 
