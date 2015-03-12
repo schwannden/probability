@@ -35,5 +35,6 @@
    * [Conditional Expectation](conditional_expectation.md)
    * [Joint Moment Generating Function](joint_moment_generating_function.md)
    * [Transformation of Variables](transformation_of_variables.md)
+   * Joint Gaussion
 * [Statistics](chapter6.md)
 
