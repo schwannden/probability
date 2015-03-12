@@ -15,7 +15,12 @@ $$M_{\bar{\mathbb{Y}}}(\bar{t}) = e^{\bar{t}^{\ T}\mu} \mathbb{E}[e^{\bar{t}^{\ 
 Let $$\bar{s}^T = \bar{t}^{\ T}A$$, note that
 $$\mathbb{E}[e^{\bar{s}^T\bar{\mathbb{X}}}] = \prod_{i=1}^n\mathbb{E}[e^{s_i \mathbb{X}_i}] \text{ (because} \mathbb{X}_i's \text{ are independent)}$$
 $$= \prod_{i=1}^n e^{-\frac{\lambda_i}{2}s_i^2} = e^{\bar{s}^T D \bar{s}} \text{ where } D = \left[ \begin{array}{ccc}
-\lambda_1 & \dddot{} & 0\\
-\vdots & \ddots & 0 \\
-0 & 0 & \lambda_n
+\lambda_1 & \cdots{} & 0\\
+\vdots & \ddots & \vdots \\
+0 & \cdots & \lambda_n
 \end{array} \right] $$
+So
+$$\mathbb{E}[e^{\bar{t}^{\ T}A\bar{\mathbb{X}}}] = e^{\bar{t}^{\ T}ADA^T\bar{t}}$$
+Now it remains to show that $$ADA^T$$ is symmetric, positive definite.
+1. $$ADA^T$$ is symmetric because $$D$$ is diagonal (the proof is trivial).
+2. For all $$\bar{t}$$, we have $$\bar{t}^{\ T}ADA^T\bar{t} = \sum_{i=1}^n s_i^2 \lambda_i \geq 0$$, and note that $$\bar{t}^{\ T}ADA^T\bar{t} = 0$$ iff $$A^T\bar{t} = 0$$ iff $$\bar{t} = 0$$ because $$A$$ is nonsingular. So $$ADA^T$$ is positive definite.
