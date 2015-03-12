@@ -4,7 +4,7 @@
 $$\Gamma(x) = \int_0^{\infty} t^{x-1}e^{-t} \mathrm{d}t\ \ \ \ \ \ \ \ \ \ (1)$$
 for all $$x > 0$$
 
-Note that $\Gamma$ converge if and only if $x>0$, as the following analysis shows:
+Note that $$\Gamma$$ converge if and only if $$$x>0$, as the following analysis shows:
 
 If $$x>0$$,
 $$\lim_{t\rightarrow\infty} \frac{t^{x-1}e^{-t}}{e^{-t/2}} = 0$$
@@ -44,7 +44,7 @@ $$\log\Gamma( \frac{x}{p} + \frac{y}{q} ) \leq \frac{1}{p}\log\Gamma(x)+ \frac{1
 Now it is actually very cool that these 3 properties uniquely determines $$\Gamma$$, as the following theorem shows.
 
 **theorem 1** 
-Let $f$ be a real function defined  on $(0, \infty)$, such that:
+Let $$f$$ be a real function defined  on $$(0, \infty)$$, such that:
 
 (a) for all $$0<x<\infty$$, $$f(x+1) = xf(x)$$ 
 
@@ -60,7 +60,7 @@ $$ \varphi(n+1)-\varphi(n) \leq\frac{\varphi(n+1+x)-\varphi(n+1)}{x} \leq\varphi
 $$\Rightarrow x \log(n) \leq \varphi(x) + \log x(x+1)...(x+n)-\log(n!) \leq x \log(n+1)$$
 $$\Rightarrow 0 \leq \varphi(x) - \log( \frac{n^xn!}{x(x+1)...(x+n)}) \leq x \log( 1+\frac{1}{n} )$$
 
-Now by squeezing theorem, $$\lim_{n \to \infty}\log( \frac{n^xn!}{x(x+1)...(x+n)}) = \varphi(x)$ on $(0, 1)$$.
+Now by squeezing theorem, $$\lim_{n \to \infty}\log( \frac{n^xn!}{x(x+1)...(x+n)}) = \varphi(x)$$ on $$(0, 1)$$.
 By the continuity of $$\log$$,  $$\lim_{n \to \infty}\frac{n^xn!}{x(x+1)...(x+n)} = f(x)$$ on $$(0, 1)$$. And by (a), $$f(x)$$ is uniquely determined on $$(0, \infty)$$.
 
 The by-product of this proof is that we know $$\frac{n^xn!}{x(x+1)...(x+n)} \to \Gamma(x)$$ point wise (at least) on $$(0, 1)$$. If we plug in x = 1, we find $$\frac{n n!}{(n+1)!} \to 1 = \Gamma(1)$$ too!
@@ -82,7 +82,7 @@ $$\leq {\int_0^1 t^{x_1-1} (1-t)^{y-1} \mathrm{d}t} ^ {\frac{1}{p}} {\int_0^1 t^
 so $$\log B$$ is convex with respect to x.$$\ \ \ \ \ \ \ \ (5)$$
 
 Now for every y fixed, let $$f(x) = \frac{\Gamma(x+y)}{\Gamma(y)}B(x, y)$$
-By (5), and convexity of $$\log \Gamma$$, $$\log f$$ is also convex. Also, $$$\ \ \ \ \ \ \ \ \ \ (6)$$
+By (5), and convexity of $$\log \Gamma$$, $$\log f$$ is also convex. Also, $$\ \ \ \ \ \ \ \ \ \ (6)$$
 
 $$f(1) = \frac{\Gamma(1+y)}{\Gamma(y)}B(1, y) \stackrel{by (3)}{=} y\frac{\Gamma(y)}{\Gamma(y)}\frac{1}{y} = 1\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (7)$$
 
@@ -118,7 +118,7 @@ There is a connection between gamma and Poisson r.v that often appears in the an
 **Theorem** 
 If $$\mathbb{N} \sim poisson(\lambda t)$$ be the number of events happen during time $$[0, t]$$, let $$T_n$$ denote the time it takes for the nth event to happen, then $$T_n \sim gamma(n, \lambda)$$
 
-**proof** $$T_n \sim F_n(t) = \mathbb{P}( \mathbb{N} \geq n ) = \sum_{k=n}^\infty \frac{(\lambda t)^k}{k!}e^{-\lambda t}$$ because the time at which nth event happens $$\leq t$$ if and only if $$\geq$$ n events happened in $$[0, t]$$. We can differentiate a power series by differentiating it term by term as long as $x$ lies in the radius of convergence. I.e, if $$\sum f_n(x) $$ converges in an open disk containing x, then $$ \frac{\mathrm{d}}{\mathrm{d} x} ( \sum f_n(x) ) = \sum f'_n(x) $$. Since radius of convergence for $$\sum_{k=n}^\infty \frac{(\lambda t)^k}{k!}e^{-\lambda t}$$ is $$\infty$$, we know
+**proof** $$T_n \sim F_n(t) = \mathbb{P}( \mathbb{N} \geq n ) = \sum_{k=n}^\infty \frac{(\lambda t)^k}{k!}e^{-\lambda t}$$ because the time at which nth event happens $$\leq t$$ if and only if $$\geq$$ n events happened in $$[0, t]$$. We can differentiate a power series by differentiating it term by term as long as $$x$$ lies in the radius of convergence. I.e, if $$\sum f_n(x) $$ converges in an open disk containing x, then $$ \frac{\mathrm{d}}{\mathrm{d} x} ( \sum f_n(x) ) = \sum f'_n(x) $$. Since radius of convergence for $$\sum_{k=n}^\infty \frac{(\lambda t)^k}{k!}e^{-\lambda t}$$ is $$\infty$$, we know
 
 $$f_n(t) = F'_n(t) = \sum_{k=n}^\infty \lambda\frac{(\lambda t)^{k-1}}{(k-1)!}e^{-\lambda t}  - \sum_{k=n}^\infty \lambda\frac{(\lambda t)^k}{k!}e^{-\lambda t} = \lambda\frac{(\lambda t)^{n-1}}{(n-1)!}e^{-\lambda t} \sim gamma(n, \lambda)$$
 
