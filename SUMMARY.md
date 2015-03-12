@@ -27,4 +27,13 @@
        * [Gamma Random Variable](gamma_random_variable.md)
        * [Chi-square Random Variable](chisquare_random_variable.md)
    * [Function of Random Variable](function_of_random_variable.md)
+* [Joint Distribution](chapter5.md)
+   * [Marginal Distribution](marginel_distribution.md)
+   * [Sums of Independent Random Variable](sums_of_independent_random_variable.md)
+   * [Covariance, Variance of Sums, and Correlations](covariance.md)
+   * [Conditional Distribution](conditional_distribution.md)
+   * [Conditional Expectation](conditional_expectation.md)
+   * [Joint Moment Generating Function](joint_moment_generating_function.md)
+   * [Transformation of Variables](transformation_of_variables.md)
+* [Statistics](chapter6.md)
 
