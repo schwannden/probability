@@ -54,13 +54,13 @@ tributed (i.i.d.),then they are called a **random sample**.
 
 So if $$X_1, ..., X_n$$ is a random sample from a distribution, the joint p.d.f of $$X_1, ..., X_n$$
 $$f_{\bar{X}}(x_1, x_2, ..., x_3) =  \prod_{i=1}^n f(x_i)$$
-where $f$ is the p.d.f of any $$X_i$$ in the random sample.
+where $$f$$ is the p.d.f of any $$X_i$$ in the random sample.
  
 **Definition**
 Suppose we have a random variable with p.d.f $$f(x, \theta)$$ where $$\theta$$ is an unknown vector, we then call $$\theta$$ a parameter and the set of $$\theta$$'s possible values, denoted $$\Theta$$, is called the parameter space.
 
 **Example**
-If $$\mathbb{X} \sim normal(\mu, \sigma^2)$$, its p.d.f has parameter $$\mu$ and $\sigma$$, with parameter space $$\{\mu, \sigma^2\} \in R \times
+If $$\mathbb{X} \sim normal(\mu, \sigma^2)$$, its p.d.f has parameter $$\mu$$ and $$\sigma$$, with parameter space $$\{\mu, \sigma^2\} \in R \times
 [0, \infty)$$
 
 **Example**
@@ -108,7 +108,8 @@ $$M_{X, Y}(t) = M_X(t)M_Y(t) = (1-2t)^{-\frac{a+b}{2}} \sim \chi^2(a+b)$$
 
 **Proof** Now this doesn't look like you can solve it with m.g.f, so we appeal to c.d.f. Note if $$f(x) = f(-x)$$ is an even function, then $$\int_{-a}^a f(x) \mathrm{d}x = 2\int_0^a f(x) \mathrm{d}x$$. 
 
-$$F_{Z^2}(y) = \mathbb{P}(\mathbb{Z}^2 \leq y ) = \mathbb{P}(-\sqrt{y} \leq \mathbb{Z} \leq \sqrt{y} ) = 2 \int_0^{\sqrt{y}} f_Z(y) \mathrm{d}y$$. 
+$$F_{Z^2}(y) = \mathbb{P}(\mathbb{Z}^2 \leq y ) = \mathbb{P}(-\sqrt{y} \leq \mathbb{Z} \leq \sqrt{y} ) = 2 \int_0^{\sqrt{y}} f_Z(y) \mathrm{d}y$$
+
 So p.d.f of $$F_{Z^2}$$ is 
 $$\mathrm{D}_y 2\int_0^{\sqrt{y}} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} \mathrm{d}x = \frac{\sqrt{2}}{\sqrt{\pi}2} e^{-\frac{y}{2}} y^{-\frac{1}{2}} \sim \chi^2(1)$$
 
@@ -120,8 +121,8 @@ Suppose that $$\mathbb{X}_1, \mathbb{X}_2, \mathbb{X}_3, \mathbb{X}_4$$ are inde
 3. $$\frac{(n-1)S^2}{\sigma^2} = \frac{\sum_{i=1}^n (\mathbb{X}_i-\bar{\mathbb{X}})^2}{\sigma^2} \sim \chi^2(n-1)$$
 
 **Proof**
-(a) This can be proved by m.g.f. The m.g.f of $$\bar{\mathbb{X}} = \prod_{i=1}^n \mathbb{E}[e^{\frac{tX_1}{n}}] = e^{\mu t + \frac{\sigma^2 / n}{2}t} \sim normal(\mu, \frac{\sigma^2}{n})$$
-(b) To show that $$\bar{\mathbb{X}}$$ and $$S^2$$ are independent, we need only to show that $$\bar{\mathbb{X}}$$ and $$(\mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})$$ are independent.
+1. This can be proved by m.g.f. The m.g.f of $$\bar{\mathbb{X}} = \prod_{i=1}^n \mathbb{E}[e^{\frac{tX_1}{n}}] = e^{\mu t + \frac{\sigma^2 / n}{2}t} \sim normal(\mu, \frac{\sigma^2}{n})$$
+2. To show that $$\bar{\mathbb{X}}$$ and $$S^2$$ are independent, we need only to show that $$\bar{\mathbb{X}}$$ and $$(\mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})$$ are independent.
 The joint m.g.f of $$\bar{\mathbb{X}}$$ and $$(\mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})$$ is
 $$M_{(\bar{\mathbb{X}}, \mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})}( t, t_1, ..., t_n ) = \mathbb{E}[e^{ \frac{t}{n}\sum_{i=1}^n X_i + \sum_{i=1}^n t_i X_i - \sum_{i=1}^n t_i \frac{\sum_{i=1}^n X_i}{n} }]$$
 $$= \mathbb{E}[e^{\sum_{i=1}^n( \frac{t}{n}+t_i-\bar{t} )X_i}] = \text{ ( by the independence of } \mathbb{X}_i \text{'s )} \prod_{i=1}^n \mathbb{E}[e^{\frac{t}{n}+t_i-\bar{t} X_i}]$$
@@ -133,15 +134,16 @@ $$\prod_{i=1}^n M_{X_i}(t_i-\bar{t}) =  \text{ ( by the independence of } \mathb
 $$= \mathbb{E}[e^{ \sum_{i=1}^n (t_i X_i-\frac{\sum_{j=1}^n t_j X_i}{n}) }] = \mathbb{E}[e^{ \sum_{i=1}^n t_i X_i-\frac{\sum_{i=1}^n \sum_{j=1}^n t_j X_i}{n}) }] = \mathbb{E}[e^{ \sum_{i=1}^n t_i X_i-\frac{\sum_{j=1}^n \sum_{i=1}^n t_j X_i}{n}) }]$$
 $$ = \mathbb{E}[e^{ \sum_{i=1}^n (t_i X_i-\frac{\sum_{j=1}^n X_j t_i}{n}) }] = \mathbb{E}[e^{ \sum_{i=1}^n (X_i-\bar{\mathbb{X}}) t_i} ] = M_{(\mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})}( t_1, ..., t_n )$$
 $$\text{ so }M_{(\bar{\mathbb{X}}, \mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})}(t) = M_{\bar{\mathbb{X}}}(t) M_{(\mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})}( t_1, ..., t_n )$$
-(c) First we need the following equality
+3. First we need the following equality
 $$\sum_{i=1}^n (X_i-\mu)^2 = \sum_{i=1}^n (X_i-\bar{X}+\bar{X}-\mu)^2 = \sum_{i=1}^n (X_i-\bar{X})^2 + n(\bar{X}-\mu)^2 + 2(\bar{X}-\mu)\sum_{i=1}^n(X_i-\bar{X})$$
-$$= \sum_{i=1}^n (X_i-\bar{X})^2 + n(\bar{X}-\mu)^2$$ because $$\sum_{i=1}^n(X_i-\bar{X}) = 0$$. Dividing both side by $$\sigma^2$$
+$$= \sum_{i=1}^n (X_i-\bar{X})^2 + n(\bar{X}-\mu)^2$$ 
+because $$\sum_{i=1}^n(X_i-\bar{X}) = 0$$. Dividing both side by $$\sigma^2$$
 
 $$\sum_{i=1}^n (\frac{X_i-\mu}{\sigma})^2 = \sum_{i=1}^n (\frac{X_i-\bar{X}}{\sigma})^2 + (\frac{\bar{X}-\mu}{\sigma/\sqrt{n}})^2$$
 
 Now
 $$\sum_{i=1}^n (\frac{X_i-\mu}{\sigma})^2 \sim \chi^2(n) \text{ and } (\frac{\bar{X}-\mu}{\sigma/\sqrt{n}})^2 \sim \chi^2(1)$$
-And since $\bar{\mathbb{X}}$ and $(\mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})$ are independent,
+And since $$\bar{\mathbb{X}}$$ and $$(\mathbb{X}_1-\bar{\mathbb{X}}, ..., \mathbb{X}_n-\bar{\mathbb{X}})$$ are independent,
 $$M_{\sum_{i=1}^n (\frac{X_i-\mu}{\sigma})^2}(t) = (1-2t)^{-\frac{n}{2}} = M_{(\frac{X_i-\bar{X}}{\sigma})^2}(t)M_{(\frac{\bar{X}-\mu}{\sigma/\sqrt{n}})^2}(t) = M_{(\frac{X_i-\bar{X}}{\sigma})^2}(t)(1-2t)^{-\frac{1}{2}}$$
 
 Note that if $$\sum_{i=1}^n(\frac{X_i-\bar{X}}{\sigma})^2 \sim \chi^2(n-1)$$ the above equation will hold, so it must be the case that $$\sum_{i=1}^n(\frac{X_i-\bar{X}}{\sigma})^2 = \frac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)$$ by the 1-1 correspondence between distribution and m.g.f.
