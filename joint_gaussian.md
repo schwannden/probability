@@ -28,4 +28,9 @@ Now it remains to show that $$ADA^T$$ is symmetric, positive definite.
 
 #### Covariance
 
-Let $$\bar{\mathbb{Y}} = A\bar{\mathbb{X}} + \bar{\mu}$$ be jointly Gaussian as in (2), and $$K$$ be a symmetric positive definite matrix as in (1). $$K$$ is the covariance matrix of $$\$$
+**Theorem** Let $$\bar{\mathbb{Y}} = A\bar{\mathbb{X}} + \bar{\mu}$$ be jointly Gaussian as in (2), and $$K$$ be a symmetric positive definite matrix as in (1). $$K$$ is the covariance matrix of $$\$$
+
+**Proof** First note that 
+$$\mathbb{E}[\bar{\mathbb{Y}}] = A\mathbb{E}[\bar{\mathbb{X}}]+\bar{\mu} = \bar{\mu}$$
+So the covariance matrix of $$\bar{\mathbb{Y}}$$ is
+$$\mathbb{E}[(\bar{\mathbb{Y}}-\bar{\mu})(\bar{\mathbb{Y}}-\bar{\mu})^T] = \mathbb{E}[A\mathbb{X}\mathbb{X}^TA^T] = A\mathbb{E}[\mathbb{X}\mathbb{X}^T]A^T = ADA^T = K$$
