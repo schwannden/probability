@@ -4,7 +4,7 @@
 $$\Gamma(x) = \int_0^{\infty} t^{x-1}e^{-t} \mathrm{d}t\ \ \ \ \ \ \ \ \ \ (1)$$
 for all $$x > 0$$
 
-Note that $$\Gamma$$ converge if and only if $$$x>0$, as the following analysis shows:
+Note that $$\Gamma$$ converge if and only if $$x>0$$, as the following analysis shows:
 
 If $$x>0$$,
 $$\lim_{t\rightarrow\infty} \frac{t^{x-1}e^{-t}}{e^{-t/2}} = 0$$
