@@ -93,7 +93,7 @@ $$= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{x_1t_1}e^{x_2t_2} \mathrm{
 The first equation correspond to $$f_{\bar{X}}(t_1, t_2)$$ and the third correspond to $$f_{X_1}f_{X_2}$$'s, so $$f_{\bar{X}} = f_{X_1}f_{X_2}$$
 
 Now let's introduce a less independent idea of independence. We say $$X_1, X_2, ..., X_n$$ and $$Y_1, Y_2, ..., Y_m$$ are
-independent if $$f_{\bar{X}, \bar{Y}}(x, y) = f_{\bar{X}}(x)f_{\bar{Y}}(y)$$, where $$f_{\bar{X}, \bar{Y}}$$, $$f_{\bar{X}}$ and $f_{\bar{Y}}$$ are joint p.d.f of $$X_1, ..., X_n, Y_1, ..., Y_m$$, $$X_i$$'s and $$Y_i$$'s respectively.
+independent if $$f_{\bar{X}, \bar{Y}}(x, y) = f_{\bar{X}}(x)f_{\bar{Y}}(y)$$, where $$f_{\bar{X}, \bar{Y}}$$, $$f_{\bar{X}}$$ and $$f_{\bar{Y}}$$ are joint p.d.f of $$X_1, ..., X_n, Y_1, ..., Y_m$$, $$X_i$$'s and $$Y_i$$'s respectively.
 
 If $$X_1, X_2, ..., X_n$$ and $$Y_1, Y_2, ..., Y_m$$ are independent, then $$g(X_1, X_2, ..., X_n)$$ and $$h(Y_1, Y_2, ..., Y_m)$$ are independent. Some consequences then follows:
 (a) $$\mathbb{E}[g(x)h(y)] = \mathbb{E}[g(x)]\mathbb{E}[h(y)]$$
