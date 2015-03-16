@@ -31,7 +31,12 @@ Now it remains to show that $$ADA^T$$ is symmetric, positive definite.
 ($$\Rightarrow$$) Now if
 $$M_{\bar{\mathbb{Y}}}(\bar{t}) = e^{\bar{t}^{T}\mu} e^{\bar{t}^{T}K\bar{t}} \text{, where $$K$$ is symmetric positive definite matrix}$$
 
-Since $$K$$ is symmetric positive definite, it can be diagonalized into $$LDL^{-1}$$, where $$L$$ is orthonormal matrix (i.e, $$K$$ has $$n$$ linearly independent eigenvectors). But since $$L$$ is orthonormal, $$L^{-1} = L^T$$.
+Since $$K$$ is symmetric positive definite, it can be diagonalized into $$ADA^{-1}$$, where $$A$$ is orthonormal matrix (i.e, $$A$$ has $$n$$ linearly independent eigenvectors). But since $$A$$ is orthonormal, $$A^{-1} = A^T$$. Now let 
+$$\bar{\mathbb{X}} = A^T(\bar{\mathbb{Y}}-\bar{\mu})$$
+
+We want to show that $$\mathbb{X}_i \sim normal(0, \lambda_i)$$
+
+$$M_{\bar{\mathbb{X}}}(\bar{t}) = e^{-\bar{t}^T A^T \bar{\mu}}\mathbb{E}[e^{\bar{t}^TA^T\bar{\mathbb{Y}}}]$$
 
 #### Covariance
 
