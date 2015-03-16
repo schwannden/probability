@@ -41,7 +41,7 @@ $$= C_2 e^{ -\frac{1}{2(1-\rho^2)} [\frac{(x-\mu_x)^2}{\sigma^2_x} - 2\rho\frac{
 $$= C_3 e^{-\frac{1}{2(1-\rho^2)\sigma^2_x} [x-(\mu_x + \rho\frac{\sigma_x}{\sigma_y}(y-\mu_y))]^2}$$
 Now since $$f_{X|Y}(x|y)$$ is a p.d.f (a conditional p.d.f is still p.d.f), it must be the case that $$C_3 = \frac{1}{\sqrt{2\pi(1-\rho^2)}\sigma_x}$$, and $$f_{X|Y}(x|y) \sim normal( \mu_x + \rho\frac{\sigma_x}{\sigma_y}(y-\mu_y), (1-\rho^2)\sigma^2_x )$$
 
-Knowing $$f_{X|Y}(x|y)$ enables us to find $f_Y(y)$$ because by the definition of $$f_{X|Y}$$, it is easy to show $$f_Y(y) = \frac{f(x, y)}{f_{X|Y}(x|y)} $$
+Knowing $$f_{X|Y}(x|y)$$ enables us to find $$f_Y(y)$$ because by the definition of $$f_{X|Y}$$, it is easy to show $$f_Y(y) = \frac{f(x, y)}{f_{X|Y}(x|y)} $$
 
 For the following derivation, I will omit what $$C_i's$$ are, because those therms are irrelevant to our discussion.
 
