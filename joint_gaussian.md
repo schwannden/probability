@@ -59,4 +59,11 @@ $$\mathbb{E}[(\bar{\mathbb{Y}}-\bar{\mu})(\bar{\mathbb{Y}}-\bar{\mu})^T] = \math
 $$f_\bar{\mathbb{Y}}(\bar{y}) = \frac{1}{\sqrt{(2\pi \det K)^n }} e^{-\frac{1}{2}(\bar{y} - \bar{\mu})^T K^{-1} (\bar{y} - \bar{\mu})} $$
 
 **Proof** 
-$$f_\bar{\mathbb{X}}(\bar{x}) = \frac{1}{\sqrt{(2\pi)^n }} e^{-\frac{1}{2}\bar{x}^T  \bar{x}} $$
+
+Let $$D$$ is the diagonal matrix mentioned above.
+$$f_\bar{\mathbb{X}}(\bar{x}) = \frac{1}{\sqrt{(2\pi)^n }\sqrt{\lambda_1 \cdots \lambda_n}} e^{-\frac{1}{2}\bar{x}^T D^{-1} \bar{x}} $$
+And note that 
+$$\det K = \det ADAT = \det D = \lambda_1 \cdots \lambda_n$$ 
+Because $$A$$ is orthonormal (hence $$\det A = \pm 1$$). Also, $$\bar{\mathbb{X}} = A^T(\bar{\mathbb{Y}}-\bar{\mu})$$, so
+$$f_\bar{\mathbb{Y}}(\bar{y}) = \frac{1}{\sqrt{(2\pi \det K)^n }} e^{-\frac{1}{2}(\bar{y} - \bar{\mu})^T AD^{-1}A^T (\bar{y} - \bar{\mu})} \det A^T$$
+And since this is probability density function, $$\det A^T = 1$$.
