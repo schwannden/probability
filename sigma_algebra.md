@@ -17,7 +17,7 @@ Now we say this $$\Sigma$$ is the domain of probability function.
 * For property 1 of sigma algebra, we can change it to: $$\emptyset \in \Sigma$$
 * If $$A_1, A_2, ... \in \Sigma$$, then $$\cap_{n=1}^\infty \in \Sigma$$. This can be proved inductively
 
-The purpose of $$\Sigma$$ is that it guarantees the existence of some normal operations of probability. For example, if $$\mathbb{P}$$ is a probability function, $$\$mathbb{P}(A)$$ and $$\mathbb{P}(B)$$ exists, one would hope we can find $$\mathbb{P}(A \cup B)$$ by
+The purpose of $$\Sigma$$ is that it guarantees the existence of some normal operations of probability. For example, if $$\mathbb{P}$$ is a probability function,  $$\mathbb{P}(A)$$ and $$\mathbb{P}(B)$$ exists, one would hope we can find $$\mathbb{P}(A \cup B)$$ by
 
 $$\mathbb{P}(A \cup B) = \mathbb{P}(A) +  \mathbb{P}(B) - \mathbb{P}(A \cap B) \ \ \ \ \ \ \ \ \ \ \ \ (1)$$
 
