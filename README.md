@@ -1,7 +1,6 @@
 Inroduction to Probability
 =======
 
-Analysis
 Coming from an engineering department, I fall in love with analysis. It teaches me how to argue the "correctness" of things, how to proof, and always remember the assumptions under which somethings are true. This book is written with these values in mind.
 
 The book is dedicated for those who want to get to the bottom of things, who enjoy asking whys, and for those who understand the value of assumptions, and importance of the process.
