@@ -2,4 +2,4 @@
 
    * [Sigma Algebra](sigma_algebra.md)
    * [Probability Space](probability_space.md)
-   * [Conditional
+   * [Conditional Probability](conditional_probability.md)
