@@ -6,9 +6,9 @@ $$\forall_a \forall_x \ \ F(x) = f(a) + \int_a^x f(t) \mathrm{d}t$$
 We say a random variable $$\mathbb{X} \sim F$$ is continuous if its c.d.f $$F$$ is absolutely continuous
 
 **Definition**
-The function $$f$$ such that $$\forall_a \forall_x \ \ F(x) = f(a) + \int_a^x f(t) \mathrm{d}t$$ is called the probability density function (p.d.f) of $$\mathbb{X}$$.
+The function $$f$$ such that $$\forall_a \forall_x \ \ F(x) = f(a) + \int_a^x f(t) \mathrm{d}t $$ is called the probability density function (p.d.f) of  $$\mathbb{X}$$.
 
-Now let's take a look at the probability mass function of $\mathbb{\mathbb{X}}$.
+Now let's take a look at the probability mass function of $$\mathbb{\mathbb{X}}$$.
 
 For any number $$a\in\mathbb{R}$$, let $$A_n$$ be the half open interval $$(a-\frac{1}{n}, a]$$
 $$\mathbb{P}(\mathbb{X}=a) = \mathbb{P}( \mathbb{X} = \cap_{n=1}^\infty A_n )
