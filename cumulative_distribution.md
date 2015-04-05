@@ -11,7 +11,7 @@ Cumulative Distribution Function has some useful properties:
 
 ** Proof **
 
-From calculus, we know
+From analysis, we know
 
  $$\lim_{n\to\infty}f(x_n)=f(x)\text{ for any sequence } \{x_n\} \text{ such that } x_n \to x$$
  ** if and only if **
