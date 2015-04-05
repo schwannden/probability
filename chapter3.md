@@ -6,7 +6,7 @@ For example, on June 14th, we add something to the sample space, namely,
 
 $$( Crested Goshawk, Spilornis Cheela, Spilornis Cheela, Crested Goshawk )$$
 
-because we observed a Crested Goshawk, followed by two Spilornis cheela, then Crested Goshawk again.
+because we observed a Crested Goshawk, followed by two Spilornis Cheela, then Crested Goshawk again.
 
 But we might not be interested in the exact form of the record. We might be interested in only how many Crested Goshawk are observed on each day.
 
@@ -24,7 +24,7 @@ $$\{\mathbb{X} \leq t\} \text{ means the set } \{x \in \mathbb{S} | \mathbb{X}(x
 
 So a random variable is a function from sample space to real number. But not all functions from sample space to real number is random variable. We need to be able to ask certain questions about this random variable. 
 
-condition (2) means: if $$\mathbb{X}$$ is a random variable, I can ask: what is the probability that something happen, and it's value is smaller than $t$. So (2) restricts on the kind of question we can ask about random variable.
+condition (2) means: if $$\mathbb{X}$$ is a random variable, I can ask: what is the probability that something happen, and it's value is smaller than $$t$$. So (2) restricts on the kind of question we can ask about random variable.
 
 Also (2) restrict on the kind of questions we can ask, as the following remark states, we actually can ask just about any question that's realistic.
 
