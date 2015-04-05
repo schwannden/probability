@@ -36,6 +36,6 @@ $$\forall_x \lim_{t\to x^+}F(t) = F(x)$$
 
 $$\mathbb{P}( a < \mathbb{X} \leq b ) = F(b) - F(a)$$
 
-C.d.f and its properties are often useful, because it is independent of the different types of random variable. These properties are true as long as it is a c.d.f of a random variable.
+**C.d.f and its properties are often useful, because it is independent of the different types of random variable.** These properties are true as long as it is a c.d.f of a random variable.
 
 
