@@ -1,7 +1,7 @@
 # Poisson Random Variable
 I have written a much more detailed introduction to Poisson random variable [here](https://docs.google.com/file/d/0B3_JVAzZH1m9NmJBdU02TVRtaXc/edit?usp=sharing) in my [blog](http://schwannden.wix.com/rigor#!math/ck0q).
 
-**Definition** We say a discrete r.v $\mathbb{X}$ is a Poisson r.v with parameters $\lambda$, denoted $\mathbb{X} \sim poisson(\lambda)$, if
+**Definition** We say a discrete r.v $$\mathbb{X}$$ is a Poisson r.v with parameters $$\lambda$$, denoted $$\mathbb{X} \sim poisson(\lambda)$$, if
 $$
  \mathbb{X} \sim p(n) =
   \begin{cases}
