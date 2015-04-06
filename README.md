@@ -5,6 +5,14 @@ Coming from an engineering department, I fall in love with analysis. It teaches 
 
 The book is dedicated for those who want to get to the bottom of things, who enjoy asking whys, and for those who understand the value of assumptions, and importance of the process.
 
+## A PDF Link
+Due to some Github problem, the pdf format of this book can not be correctly downloaded. Here is a pdf file:
+https://drive.google.com/open?id=0B3_JVAzZH1m9blhzb3oycDhBN28&authuser=0
+
+Notive that the most up to date version will always be this online book.
+
+
+
 ## Table of Content
 
 * [Introduction](README.md)
