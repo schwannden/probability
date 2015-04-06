@@ -11,6 +11,14 @@ https://drive.google.com/open?id=0B3_JVAzZH1m9blhzb3oycDhBN28&authuser=0
 
 Notive that the most up to date version will always be this online book.
 
+## About Author
+Schwannden Kuo
+
+Computer Science, NCTU Taiwan
+
+E-mail: schwannden@gmail.com
+
+All comments, discussion, and co-authorship request is welcomed, please email me.
 
 
 ## Table of Content
