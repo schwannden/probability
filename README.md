@@ -3,7 +3,7 @@ Inroduction to Probability
 
 Coming from an engineering department, I fall in love with analysis. It teaches me how to argue the "correctness" of things, how to proof, and always remember the assumptions under which somethings are true. This book is written with these values in mind.
 
-The book is dedicated for those who want to get to the bottom of things, who enjoy asking whys, and for those who understand the value of assumptions, and importance of the process.
+The book is dedicated for those who want to get to the bottom of things, who enjoy asking whys, and for those who understand the value of assumptions, and importance of the process. 
 
 ## A PDF Link
 Due to some Github problem, the pdf format of this book can not be correctly downloaded. Here is a [pdf file](https://drive.google.com/open?id=0B3_JVAzZH1m9blhzb3oycDhBN28&authuser=0)
