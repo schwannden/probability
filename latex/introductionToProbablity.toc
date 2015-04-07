@@ -1,0 +1,42 @@
+\contentsline {section}{\numberline {1}The Notion of Relative Frequency}{3}
+\contentsline {section}{\numberline {2}Axiomatic Probability}{5}
+\contentsline {subsection}{\numberline {2.1}Sigma Algebra}{5}
+\contentsline {subsection}{\numberline {2.2}Probability Space}{6}
+\contentsline {subsection}{\numberline {2.3}Conditional Probability}{6}
+\contentsline {section}{\numberline {3}Random Variable}{8}
+\contentsline {subsection}{\numberline {3.1}Cumulative distribution Function}{9}
+\contentsline {subsection}{\numberline {3.2}Conditional Random Variable}{10}
+\contentsline {subsection}{\numberline {3.3}Types Of Random Variable}{10}
+\contentsline {subsubsection}{\numberline {3.3.1}Discrete Random Variable}{11}
+\contentsline {subsubsection}{\numberline {3.3.2}Continuous Random Variable}{11}
+\contentsline {subsection}{\numberline {3.4}Expectation}{12}
+\contentsline {subsection}{\numberline {3.5}Moment Generating Function}{13}
+\contentsline {section}{\numberline {4}Some Example Distributions}{15}
+\contentsline {subsection}{\numberline {4.1}Example Discrete Random Variable}{15}
+\contentsline {subsubsection}{\numberline {4.1.1}Bernoulli Random Variable}{15}
+\contentsline {subsubsection}{\numberline {4.1.2}Binomial Random Variable}{15}
+\contentsline {subsubsection}{\numberline {4.1.3}Poisson Random Variable}{16}
+\contentsline {subsection}{\numberline {4.2}Example Continuous Random Variable}{17}
+\contentsline {subsubsection}{\numberline {4.2.1}Uniform Random Variable}{17}
+\contentsline {subsubsection}{\numberline {4.2.2}Normal Random Variable}{18}
+\contentsline {subsubsection}{\numberline {4.2.3}Exponential Random Variable}{19}
+\contentsline {subsubsection}{\numberline {4.2.4}Beta Random Variable}{20}
+\contentsline {subsubsection}{\numberline {4.2.5}Gamma random variable}{21}
+\contentsline {subsubsection}{\numberline {4.2.6}Chi-square Random Variable }{25}
+\contentsline {subsection}{\numberline {4.3}Function of Random Variable}{26}
+\contentsline {section}{\numberline {5}Joint Distribution}{28}
+\contentsline {subsection}{\numberline {5.1}Marginal Distribution}{28}
+\contentsline {subsection}{\numberline {5.2}Sums of Independent Random Variable}{29}
+\contentsline {subsection}{\numberline {5.3}Covariance, Variance of Sums, and Correlations}{29}
+\contentsline {subsection}{\numberline {5.4}Conditional Distribution}{29}
+\contentsline {subsection}{\numberline {5.5}Conditional Expectation}{33}
+\contentsline {subsection}{\numberline {5.6}Joint Moment Generating Function}{33}
+\contentsline {section}{\numberline {6}Transformation of Variables}{34}
+\contentsline {section}{\numberline {7}Statistical Inferences}{39}
+\contentsline {subsection}{\numberline {7.1}Point Estimate}{40}
+\contentsline {subsubsection}{\numberline {7.1.1}Model of Moment}{45}
+\contentsline {subsubsection}{\numberline {7.1.2}Maximum Likelihood Estimation}{46}
+\contentsline {subsubsection}{\numberline {7.1.3}Best Estimator: UMVUE}{50}
+\contentsline {section}{\numberline {8}Continuous to Point Estimation: sufficiency for UMVUE}{55}
+\contentsline {paragraph}{ A.1 \ \ Interchanging Differentiation and Integration}{62}
+\contentsline {paragraph}{ A.2 \ \ Holder's inequality\\}{62}
