@@ -1,12 +1,11 @@
 # Bernoulli Random Variable
 **Definition** We say a discrete random variable $$\mathbb{X}$$ is a Bernoulli random variable with parameter $$p$$, or has a Bernoulli distribution with parameter $$p$$, denoted by $$\mathbb{X} \sim Bernoulli(p)$$ if
-$$
- \mathbb{X} \sim p(n) =
-  \begin{cases}
-   p & \text{if } n = 1 \\
-   1-p       & \text{if } n = 0
-  \end{cases}
-$$
+
+$$ \mathbb{X} \sim p(n) =
+\begin{cases} 
+p & \text{ if } n = 1 \\ 
+1-p & \text{ if } n = 0 
+\end{cases}$$
 
 For $$\mathbb{X} \sim Bernoulli(p)$$, $$\mu = p$$, and $$\sigma^2 = p(1-p)$$
 
