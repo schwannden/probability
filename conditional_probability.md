@@ -29,4 +29,4 @@ With the notion of conditional probability, we can define the notion of independ
 **Remark**
 * If $$A$$ and $$B$$ are independent event, $$\mathbb{P}(A|B) = \mathbb{P}(A)$$ which is very intuitive, because the probability of $$A$$ has nothing to do with B.
 * Even if $$A \cap B = \emptyset$$, $$A, B$$ might not be independent.
-* When $$\mathbb{P}(B) = 0$$, how we define $$\mathbb{P}(x|B)$$ is up the the application. It's like it is meaningless to define what is $$0^0$$ unless we are under some application.
+* When $$\mathbb{P}(B) = 0$$, how we define $$\mathbb{P}(x|B)$$ is up the application. It's like it is meaningless to define what is $$0^0$$ unless we are under some application.
