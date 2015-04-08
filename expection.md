@@ -3,13 +3,11 @@
 Expectation is a way to characterize a random variable.
 
 **Definition** Let $$g$$ be a real function, the expectation of a random variable $$\mathbb{X} \sim f$$, denoted $$\mathbb{E}[g(\mathbb{X})]$$, is defined as
-$$
-\mathbb{E}[g(\mathbb{X})] =
-  \begin{cases}
-   \sum_{x|f(x)>0} g(x)f(x) & \text{ for discrete random variable} \\
-   \int_{-\infty}^{\infty} g(x)f(x) \mathrm{d}x & \text{ for continuous random variable}
-  \end{cases}
-$$
+$$\mathbb{E}[g(\mathbb{X})] =
+\begin{cases}
+\sum_{x|f(x)>0} g(x)f(x) & \text{ for discrete random variable} \\
+\int_{-\infty}^{\infty} g(x)f(x) \mathrm{d}x & \text{ for continuous random variable}
+\end{cases}$$
 Note here $$f$$ is treated as p.m.f in discrete case and p.d.f in continuous case.
 
 In the special case $$g(x) = x$$, $$\mathbb{E}[g(\mathbb{X})] = \mathbb{E}[\mathbb{X}]$$ is called the **mean** of $$\mathbb{X}$$, usually denoted by $$\mu$$. And in the special case that $$g(x) = (x-\mu)^2$$, $$\mathbb{E}[g(\mathbb{X})] = \mathbb{E}[(\mathbb{X}-\mu)^2]$$ is called the **variance** of $$\mathbb{X}$$, usually denoted by $$\sigma^2$$
