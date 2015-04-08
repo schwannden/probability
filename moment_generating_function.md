@@ -27,7 +27,7 @@ We can take the differentiation into expectation because the theorems in analysi
 
 Reader should be able to varify that $$M_X^{(n)}(0) = \mathbb{E}[\mathbb{X}^n]$$ (under appropriate conditions), so that $$\sigma^2 = M_X''(0) - (M_X'(0))^2$$ provides a nother way tp caluculate variance via moment generating function.
 
-**Theorem** Uniquess Property of Moment gGenerating Function.
+**Theorem** Uniquess Property of Moment Generating Function.
 $$M_X(t) = M_Y(t) \text{ if and only if } \mathbb{X}=\mathbb{Y}$$
 
 This is the first theorem you encounter in this textbook that I shall not give it a proof. Because the proof concept is beyond basic analysis.
