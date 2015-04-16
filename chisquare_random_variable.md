@@ -4,7 +4,7 @@
 
 So by the property of $gamma$ distribution, we know:
 
-**Property**$ If $\mathbb{X} \sim \chi^2(k)$$, $$\mu = k, \sigma^2 = \frac{k}{2}$$
+**Property** If $$\mathbb{X} \sim \chi^2(k)$$, $$\mu = k, \sigma^2 = \frac{k}{2}$$
 
 **Theorem** If $$\mathbb{Z} \sim normal(0, 1)$$, then $$\mathbb{Z}^2 \sim \chi^2(1)$$
 
