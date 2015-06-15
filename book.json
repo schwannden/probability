@@ -1,11 +1,3 @@
 {
-    "plugins": [
-        "ga",
-        "mathjax"
-    ],
-    "pluginsConfig": {
-        "ga": {
-            "token": "UA-59769475-1"
-        }
-    }
+    "plugins": [ "mathjax" ]
 }
